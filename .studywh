@@ -1,0 +1,10 @@
+--keymap--
+vim.api.nvim_set_keymap('mode', 'key', 'maps to', 'options') -- Global Shortcut Key
+vim.api.nvim_buf_set_keymap() --Buffer Shortout Key
+
+==mode--
+n Normal 
+i Insert
+v Visual
+t Terminal
+c Command
